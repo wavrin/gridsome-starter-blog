@@ -6,6 +6,7 @@
 
 module.exports = {
   siteName: 'Christopher Wavrin',
+  siteURL: 'https;//wavrin.com',
   siteDescription: 'Personal Website of Christopher Wavrin. Discussion of technology and software development.',
 
   templates: {
