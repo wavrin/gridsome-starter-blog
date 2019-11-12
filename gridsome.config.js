@@ -29,7 +29,13 @@ module.exports = {
           }
         }
       }
-    }
+    },
+    {
+      use: "@gridsome/plugin-google-analytics",
+      options: {
+        id: "UA-42536217-1"
+      }
+    },
   ],
 
   transformers: {
