@@ -6,7 +6,7 @@
 
 module.exports = {
   siteName: 'Christopher Wavrin',
-  siteURL: 'https;//wavrin.com',
+  siteUrl: "https://wavrin.com",
   siteDescription: 'Personal Website of Christopher Wavrin. Discussion of technology and software development.',
 
   templates: {
@@ -36,6 +36,19 @@ module.exports = {
         id: "UA-42536217-1"
       }
     },
+    {
+      use: '@gridsome/plugin-sitemap',
+      options: {
+        cacheTime: 600000, // default
+        exclude: ['/exclude-me'],
+        config: {
+          '/*': {
+            changefreq: 'weekly',
+            priority: 0.5
+          }
+        }
+      }
+    }
   ],
 
   transformers: {
