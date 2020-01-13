@@ -4,7 +4,7 @@ date: 2019-11-12
 published: true
 tags: ["Vue.js"]
 canonical_url: false
-description: "The Gridsome community has a pretty strong set of plugins. But you aren't limited by just those. Incorporating a Vue.js component into your site isn't too hard either."
+description: "The Gridsome community has a pretty strong set of plugins. But you aren't limited to just those. Incorporating a Vue.js component into your site isn't too hard either."
 ---
 
 [Gridsome](https://gridsome.org/) is a great static site generator, written in Vue.js, to host websites. I have [written](https://www.wavrin.com/new-site-with-gridsome-and-amplify/) before about why I chose Gridsome. I started this site with a great [starter template](https://github.com/gridsome/gridsome-starter-blog), but wanted to add a few more features to it. Thankfully, the Gridsome community has a number of quality plugins to make this easy.
